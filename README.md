@@ -36,20 +36,16 @@ SQLALCHEMY_DATABASE_URI=postgresql://username:password@localhost/ecommerce_db
 ## Usage
 Run each microservice:
 
-    ```bash
+```bash
 cd auth_service
 python app.py
-    ```
 
-    ```bash
 cd order_service
 python app.py
-    ```
 
-    ```bash
 cd product_service
 python app.py
-    ```
+```
 
 Access the APIs at the following endpoints:
 
@@ -60,16 +56,16 @@ Product Service: http://localhost:5002
 ## Testing
 Run tests for each microservice:
 
-    ```bash
+```bash
 cd auth_service/tests
 python -m unittest discover -s . -p 'test_*.py'
-    ```
-    ```bash
+```
+```bash
 cd order_service/tests
 python -m unittest discover -s . -p 'test_*.py'
-    ```
-    ```bash
+```
+```bash
 cd product_service/tests
 python -m unittest discover -s . -p 'test_*.py'
-    ```
+```
     
