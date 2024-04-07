@@ -6,33 +6,33 @@ This project is a backend system for an e-commerce platform, consisting of multi
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/e_commerce_backend.git
-   ```
+```bash
+   git clone https://github.com/SHIV000000/e_commerce_backend.git
+```
 
 ## Install dependencies:
 
-    ```bash
+```bash
 cd e_commerce_backend
 pip install -r requirements.txt
-    ```
+```
 
 ## Configuration
 ### Set up the PostgreSQL database:
 
-    ```bash
+```bash
 Install PostgreSQL and create a database for each microservice.
 Update the database URIs in the config.py files of each microservice (e.g., auth_service/config.py, order_service/config.py, product_service/config.py).
-    ```
+```
 
 ## Set up environment variables:
 
 Create a .env file in the root directory.
 Add environment variables for secret keys, database URIs, etc. For example:
-    ```bash
+```bash
 SECRET_KEY=your_secret_key
 SQLALCHEMY_DATABASE_URI=postgresql://username:password@localhost/ecommerce_db
-    ```
+```
 ## Usage
 Run each microservice:
 
